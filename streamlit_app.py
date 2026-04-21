@@ -66,7 +66,7 @@ import os
 API_URL = os.getenv("API_URL", "https://snapdelta.onrender.com")
 
 st.markdown('<p class="main-title">🔍 SnapDelta</p>', unsafe_allow_html=True)
-st.markdown('<p class="subtitle">AI-powered visual diff detection — upload two screenshots and see what changed</p>', unsafe_allow_html=True)
+st.markdown('<p class="subtitle">AI-powered visual diff detection upload two screenshots and see what changed</p>', unsafe_allow_html=True)
 
 col1, col2 = st.columns(2)
 
