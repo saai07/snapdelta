@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pillow
+google-genai
+python-dotenv
+python-multipart
+streamlit
+requests
