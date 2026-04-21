@@ -63,7 +63,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 import os
-API_URL = os.getenv("API_URL", "http://localhost:8000")
+API_URL = os.getenv("API_URL", "https://snapdelta.onrender.com")
 
 st.markdown('<p class="main-title">🔍 SnapDelta</p>', unsafe_allow_html=True)
 st.markdown('<p class="subtitle">AI-powered visual diff detection — upload two screenshots and see what changed</p>', unsafe_allow_html=True)
@@ -80,7 +80,7 @@ with col2:
 
 st.markdown("")
 
-if st.button("🚀 Detect Changes", disabled=not (before_file and after_file)):
+if st.button(" Detect Changes", disabled=not (before_file and after_file)):
     if before_file and after_file:
         with st.spinner("Analyzing screenshots..."):
             try:
